@@ -1,0 +1,196 @@
+
+html{
+	font-family: 'Muli', sans-serif;
+}
+
+body{
+	background-image: url("../photos/drop.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  margin: 4px;
+  padding: 6px;
+  margin-top: 5px;
+}
+
+.navbar-inverse .navbar-nav {
+  margin-right: 0px;
+}
+.navbar-inverse .navbar-nav > li{
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 2px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  /*text-decoration: underline;*/
+  background-color: transparent;
+  
+  border-bottom: 2px solid #4dff4d;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+  border-style: double;
+  border-color: #4dff4d;
+
+}
+
+.navbar-inverse .navbar-nav > .inactive > a{
+  margin-top: 9px;
+}
+
+
+#landing{
+	padding: 2%;
+	background-color: black;
+	color: white;
+	height: 450px;
+	width: 350px;
+	margin-left: 10%;
+	margin-top: 5%;
+	opacity: .85;
+}
+
+#landing > h1{
+	font-size: 100px;
+}
+
+#landing > h2{
+	font-size: 32px;
+	padding-top: 20%;
+}
+
+#logo > a{
+	color: #4dff4d;
+	font-size: 18px;
+}
+.button-landing{
+	width: 100px;
+	background-color: black; 
+	color: white; 
+	border-radius: 5px;
+	border: 1px solid #4dff4d;
+	font-size: 16px;
+	margin-top: 20px
+}
+
+.infoDiv{
+	text-align: center;
+	opacity: .85;
+	padding: 15px;
+	background-color: black;
+	color: white;
+}
+
+.infoDiv#heading{
+	height: 75px;
+	width: 225px;
+	margin: 0 auto;
+	/*border: 2px solid #4dff4d;*/
+}
+
+.infoDiv#heading > h1 {
+	margin: 0 auto;
+	font-size: 38px;
+	margin-top: 0px;
+}
+
+.infoDiv#about{
+	margin-left: 50px;
+	width: 850px;
+	height: 650px;
+	margin-top: 15px;
+	text-align: left;
+}
+
+.infoDiv#about > h4{
+	font-size: 19px;
+	margin-top: 0px;
+	line-height: 22px;
+}
+.infoDiv#aboutPics{
+	width: 300px;
+	height: 500px;
+	margin-top: 15px;
+	margin-right: 50px;
+}
+
+.infoDiv#awards{
+	margin: 0 auto;
+	width: 700px;
+	height: 350px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.infoDiv#awards > h3{
+	margin-top: 0px;
+}
+
+.infoDiv#technology{
+	width: 1000px;
+	height: 925px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.infoDiv#technology > h4{
+	font-size: 19px;
+	text-align: left;
+	margin-top:0px;
+	line-height: 22px;
+}
+.infoDiv#technology > h4 > ul> li{
+	margin-top: 5px;
+}
+
+.infoDiv#teamSubheading{
+	height: 135px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.infoDiv#teamSubheading > h4{
+	font-size: 19px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+#teamTable{
+	width: 100%;
+	text-align: left;
+}
+
+#HarvardPresident{
+	margin-top: 0px;
+	width: 75px;
+}
+
+#HarvardRock{
+	margin-top: 0px;
+	width: 75px;
+}
+
+#email{
+	cursor: pointer;
+	color: white;
+	text-decoration: underline;
+}
+
+#footer{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	font-size: 10px;
+}
