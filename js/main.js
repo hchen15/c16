@@ -2,7 +2,7 @@ $(function() {
 
 
 $('#landingBtn').on('click', function(){
-	window.location.href='../html/about.html';
+	window.location.href='html/about.html';
 });
 
 $("#HarvardPresident").on('click', function(){

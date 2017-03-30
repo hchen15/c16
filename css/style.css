@@ -120,9 +120,14 @@ body{
 }
 .infoDiv#aboutPics{
 	width: 300px;
-	height: 500px;
+	height: 650px;
 	margin-top: 15px;
 	margin-right: 50px;
+}
+
+.infoDiv#aboutPics > p > a{
+	color: white;
+	text-decoration: underline;
 }
 
 .infoDiv#awards{
