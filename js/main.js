@@ -15,8 +15,14 @@ $("#HarvardRock").on('click', function(){
 	$(this).blur();
 });
 
+$("#HarvardNVC").on('click', function(){
+	window.open("http://www.hbs.edu/newventurecompetition/social-enterprise-track/Pages/teams.aspx");
+	$(this).blur();
+});
+
 $("#email").on('click', function(){
 	window.location.href = "mailto:information@c16bio.com";
 });
+
 
 });

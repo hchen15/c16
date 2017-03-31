@@ -1,6 +1,7 @@
 
 html{
 	font-family: 'Muli', sans-serif;
+
 }
 
 body{
@@ -94,7 +95,7 @@ body{
 
 .infoDiv#heading{
 	height: 75px;
-	width: 225px;
+	width: 650px;
 	margin: 0 auto;
 	/*border: 2px solid #4dff4d;*/
 }
@@ -106,9 +107,9 @@ body{
 }
 
 .infoDiv#about{
-	margin-left: 50px;
-	width: 850px;
-	height: 650px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 585px;
 	margin-top: 15px;
 	text-align: left;
 }
@@ -119,21 +120,21 @@ body{
 	line-height: 22px;
 }
 .infoDiv#aboutPics{
-	width: 300px;
-	height: 650px;
-	margin-top: 15px;
-	margin-right: 50px;
+	width: 1000px;
+	height: 225px;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
-.infoDiv#aboutPics > p > a{
+.infoDiv#aboutPics > div > p > a{
 	color: white;
 	text-decoration: underline;
 }
 
 .infoDiv#awards{
 	margin: 0 auto;
-	width: 700px;
-	height: 350px;
+	width: 850px;
+	height: 375px;
 	margin-top: 15px;
 	text-align: center;
 }
@@ -177,12 +178,7 @@ body{
 	text-align: left;
 }
 
-#HarvardPresident{
-	margin-top: 0px;
-	width: 75px;
-}
-
-#HarvardRock{
+.awardBtn{
 	margin-top: 0px;
 	width: 75px;
 }
