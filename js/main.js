@@ -21,7 +21,7 @@ $("#HarvardNVC").on('click', function(){
 });
 
 $("#email").on('click', function(){
-	window.location.href = "mailto:information@c16bio.com";
+	window.location.href = "mailto:sticku@mba2017.hbs.edu";
 });
 
 
