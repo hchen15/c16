@@ -88,6 +88,13 @@ body{
 	margin-top: 20px
 }
 
+.button-landing:active{
+	outline-color: #F99628;
+}
+.button-landing:focus{
+	outline-color: #F99628;
+}
+
 .infoDiv{
 	text-align: center;
 	opacity: .85;
