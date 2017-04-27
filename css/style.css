@@ -11,6 +11,9 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+.navbar-inverse{
+	background-color: black;
+}
 .navbar-inverse .navbar-nav > li > a {
   color: white;
   margin: 4px;
@@ -33,7 +36,7 @@ body{
   /*text-decoration: underline;*/
   background-color: transparent;
   
-  border-bottom: 2px solid #4dff4d;
+  border-bottom: 2px solid #19AE55;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -42,7 +45,7 @@ body{
   color: #fff;
   background-color: #080808;
   border-style: double;
-  border-color: #4dff4d;
+  border-color: #19AE55;
 
 }
 
@@ -80,7 +83,7 @@ body{
 	background-color: black; 
 	color: white; 
 	border-radius: 5px;
-	border: 1px solid #4dff4d;
+	border: 1px solid #F99628;
 	font-size: 16px;
 	margin-top: 20px
 }
