@@ -6,7 +6,7 @@ $('#landingBtn').on('click', function(){
 });
 
 $("#HarvardPresident").on('click', function(){
-	window.open("https://i-lab.harvard.edu/news/finalists-named-presidents-innovation-challenge/");
+	window.open("https://i-lab.harvard.edu/news/winners-presidents-innovation-challenge-2017-faust-goldstein/");
 	$(this).blur();
 });
 
