@@ -182,7 +182,7 @@ body{
 	width: 1200px; 
 	margin: 0 auto; 
 	margin-top: 15px; 
-	opacity: 1;
+	opacity: .95;
 	text-align: center;
 	box-shadow: 0 0 30px 10px black;
 }
@@ -205,6 +205,7 @@ body{
 	width: 100%;
 	text-align: left;
 	margin-bottom: 0;
+
 }
 
 .awardBtn{
