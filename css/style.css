@@ -63,6 +63,7 @@ body{
 	margin-left: 10%;
 	margin-top: 5%;
 	opacity: .85;
+	box-shadow: 0 0 30px 10px black;
 }
 
 #landing > h1{
@@ -110,24 +111,25 @@ body{
 	/*border: 2px solid #4dff4d;*/
 }
 
-.infoDiv#heading > h1 {
-	margin: 0 auto;
-	font-size: 38px;
-	margin-top: 0px;
-}
 
 .infoDiv#about{
 	margin: 0 auto;
 	width: 1000px;
-	height: 550px;
+	height: 625px;
 	margin-top: 15px;
 	text-align: left;
+	box-shadow: 0 0 30px 10px black;
 }
 
 .infoDiv#about > h4{
 	font-size: 19px;
 	margin-top: 0px;
 	line-height: 22px;
+}
+
+.infoDiv#about > h1{
+	margin-bottom: 30px;
+	text-align: center;
 }
 .infoDiv#aboutPics{
 	width: 1000px;
@@ -144,8 +146,13 @@ body{
 .infoDiv#awards{
 	margin: 0 auto;
 	width: 850px;
-	height: 375px;
+	height: 475px;
 	margin-top: 15px;
+	text-align: center;
+	box-shadow: 0 0 30px 10px black;
+}
+.infoDiv#awards > h1{
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -170,23 +177,36 @@ body{
 	margin-top: 5px;
 }
 
-.infoDiv#teamSubheading{
-	height: 135px;
-	width: 1000px;
-	margin: 0 auto;
-	margin-top: 15px;
+
+.infoDiv#team {
+	width: 1000px; 
+	margin: 0 auto; 
+	margin-top: 15px; 
+	opacity: .95;
+	text-align: center;
+	box-shadow: 0 0 30px 10px black;
 }
 
-.infoDiv#teamSubheading > h4{
+.infoDiv#team > h1{
+	margin-bottom: 30px;
+}
+
+.infoDiv#team > h4{
+	margin: 0 auto;
 	font-size: 19px;
-	text-align: left;
+	text-align: center;
 	margin-top: 0px;
+	width: 80%;
+	margin-bottom: 20px;
+
 }
 
 #teamTable{
-	width: 100%;
+	margin: 0 auto;
+	width: 90%;
 	text-align: left;
 	margin-bottom: 0;
+
 }
 
 .awardBtn{
